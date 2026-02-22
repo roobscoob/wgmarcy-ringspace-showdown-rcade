@@ -3,7 +3,7 @@
   "name": "ringspace-shelldown",
   "display_name": "Ringspace Shelldown",
   "description": "ringspace-shelldown",
-  "visibility": "private",
+  "visibility": "internal",
   "authors": [
     {
       "display_name": "Bill Marcy"
