@@ -1,0 +1,5 @@
+Ring[[:space:]]Game.wasm filter=lfs diff=lfs merge=lfs -text
+Ring[[:space:]]Game.pck filter=lfs diff=lfs merge=lfs -text
+Ring[[:space:]]Game.apple-touch-icon.png filter=lfs diff=lfs merge=lfs -text
+Ring[[:space:]]Game.icon.png filter=lfs diff=lfs merge=lfs -text
+Ring[[:space:]]Game.png filter=lfs diff=lfs merge=lfs -text
