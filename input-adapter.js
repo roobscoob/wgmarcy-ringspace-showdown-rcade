@@ -22,7 +22,7 @@ function simulateKeyEvent(eventName, keyCode) {
     });
     
     // Dispatch to document or your specific Godot <canvas> element
-    document.dispatchEvent(event); 
+    document.getElementById("canvas").dispatchEvent(event); 
 }
 
 // 3. Listen for Arcade inputs being pressed down
