@@ -2,13 +2,13 @@ import { on } from "@rcade/input-classic";
 
 // 1. Map the arcade buttons to the KeyboardEvent.code values your Godot game expects
 const buttonToKeyMap = {
-    "UP": "ArrowUp",
-    "DOWN": "ArrowDown",
-    "LEFT": "ArrowLeft",
-    "RIGHT": "ArrowRight",
-    "A": "KeyZ",       // Example: Map Arcade 'A' to 'Z' key
-    "B": "KeyX",       // Example: Map Arcade 'B' to 'X' key
-    "ONE_PLAYER": "Digit1" 
+    "UP": "keyW",
+    "DOWN": "keyS",
+    "LEFT": "keyA",
+    "RIGHT": "keyD",
+    "A": "keyW",       // Example: Map Arcade 'A' to 'Z' key
+    "B": "keyE",       // Example: Map Arcade 'B' to 'X' key
+    "ONE_PLAYER": "Enter" 
 };
 
 // 2. Helper to trigger fake keyboard events for Godot to pick up
